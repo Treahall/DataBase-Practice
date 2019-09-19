@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:DataBasePractice"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FF805151">
+        <Button x:Name="See_Assets" Content="See Assets" Margin="94,10,0,0" HorizontalAlignment="Left" Width="100" Height="20" VerticalAlignment="Top" Click="See_Assets_Click" RenderTransformOrigin="1.618,0.762"/>
+        <TextBox x:Name="Assets_Text_Box" Margin="10,35,503,10" TextWrapping="Wrap"/>
+        <Button x:Name="See_Employees" Content="See Employees" HorizontalAlignment="Left" Margin="595,10,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="1.874,0.762" Click="See_Employees_Click"/>
+        <TextBox x:Name="Employee_Text_Box" Margin="503,35,10,10" TextWrapping="Wrap"/>
+
     </Grid>
 </Window>
